@@ -7,7 +7,7 @@ import BackgroundCircles from "./BackgroundCircles";
 // type Props = {};
 
 const Hero = (/* props: Props */) => {
-  const [text, count] = useTypewriter({
+const [text, /* count*/] = useTypewriter({
     words: [
       "Hello There!",
       "I'm Akshay Mugale",
