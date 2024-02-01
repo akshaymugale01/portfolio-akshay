@@ -50,9 +50,9 @@ const ProjectsA = () =>{
                         <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                             <h4 className="text-4xl">{project.title}</h4>
                             <p className="text-lg text-center md:text-left">{project.description}</p><br />
-                            {project.code && (
+                            {/* {project.code && (
                                 <p>Code: <a href={project.code} className="underline">GitHub</a></p>
-                            )}
+                            )} */}
                             {project.demo && (
                                 <p>Demo: <a href={project.demo} className="underline">Live Demo</a></p>
                             )}
