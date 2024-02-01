@@ -19,6 +19,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*"], // Change to include all files in the "src" directory
+  "include": ["src/**/*.ts", "**/*.tsx"], // Change to include all files in the "src" directory
   "references": [{ "path": "./tsconfig.node.json" }]
 }
