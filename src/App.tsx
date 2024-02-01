@@ -2,7 +2,8 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
+// import Projects from "@/components/Projects";
+import ProjectsA from "./components/ProjectsA";
 import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
 import { ArrowUpIcon } from "@heroicons/react/24/solid";
@@ -24,9 +25,13 @@ export default function Home() {
         <section id="skills" className="snap-start">
           <Skills />
         </section>
-        <section id="projects" className="snap-start">
+        {/* <section id="projects" className="snap-start">
           <Projects />
+        </section> */}
+        <section id="projectsA" className="snap-start">
+          <ProjectsA />
         </section>
+
         <section id="contact" className="snap-start">
           <Contact />
         </section>

@@ -23,8 +23,8 @@ const AlmaBetter = (/*props: Props*/) => {
         <h4 className="text-4xl font-light">AlmaBetter Development Course</h4>
         <p className="font-bold text-2xl mt-1">Full-Stack Web Development</p>
         <div className="flex space-x-2 my-2">
-            <img className="h-10 w-10 rounded-full overflow-visible" src={"/Alma1.png"} alt="jpeg" />
-            <img className="h-10 w-10 rounded-full" src={"/Alma2.png"} alt="png" />
+            <img className="h-10 w-10 rounded-full overflow-visible" src={"/Alma1.png"} alt="png" />
+            <img className="h-10 w-10 rounded-full" src={"/Alma2.jpg"} alt="jpg" />
            
         </div>
         <p className="uppercase py-5 text-gray-300">Started-Jul/23 | End-Feb/24</p>

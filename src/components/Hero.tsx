@@ -47,7 +47,7 @@ const [text, /* count*/] = useTypewriter({
             <a href='#skills'>
           <button className="heroButton">Skills</button>
             </a>
-            <a href='#projects'>
+            <a href='#projectsA'>
           <button className="heroButton">Projects</button>
             </a>
             <a href='https://drive.google.com/file/d/1OFYQnFqVMbERcRW6DB5OeX80UvtE_0_Q/view?usp=drive_link'>
