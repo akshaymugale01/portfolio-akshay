@@ -2,7 +2,7 @@
 
 import { useForm, SubmitHandler } from "react-hook-form"
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-type Props = {};
+// type Props = {};
 
 type Inputs = {
     name: string
@@ -10,7 +10,7 @@ type Inputs = {
     subject: string
     message: string
   }
-function Contact({}: Props) {
+function Contact() {
     const {
         register,
         handleSubmit,    

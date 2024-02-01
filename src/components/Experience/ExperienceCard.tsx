@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 // import img2 from '@/public/Sinhgad-College-of-Engineering-logo.jpg'
 // import img3 from '@/public/sknlogo.png'
 
-type Props = {};
+// type Props = {};
 
-const ExperienceCard = (props: Props) => {
+const ExperienceCard = (/* props: Props */) => {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img

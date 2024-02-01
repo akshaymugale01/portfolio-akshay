@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 // import picture from "../public/PicsArt_01-12-07.10.33.jpg";
 
-type Props = {};
+// type Props = {};
 
-function About({}: Props) {
+function About( ) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
